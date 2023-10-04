@@ -17,7 +17,7 @@ function App() {
     setCounterArray(newarr)
   }
   return (
-    <div className='max-w-[750px] mx-auto my-4'>
+    <div className='lg:max-w-[800px] max-w-[400px] mx-auto my-4'>
       <button className='bg-black text-white rounded-sm px-8 py-4 mb-4' onClick={addCounter}>Add Counter</button>
       <div className='flex gap-4 flex-wrap'>
         {counterArray.map((key)=>{
